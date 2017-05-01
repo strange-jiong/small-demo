@@ -1,9 +1,0 @@
-digraph finite_state_machine {
-	rankdir=UD;
-	size="20,20"
-	node [shape = pentagon]
-	S0 -> S1 [ label = "Lift Nozzle" ]
-	S1 -> S2 [ label = "Authorize Pump" ]
-	S2 -> S0 [ label = "Replace Nozzle" ]
-	S2 -> S3 [ label = "Pull Trigger" ]
-	S3 -> S2 [ label = "Release Trigger" ] }
